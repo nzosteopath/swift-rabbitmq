@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // Pointing to your fork of rabbitmq-nio on the branch you created
-        .package(url: "https://github.com/nzosteopath/rabbitmq-nio.git", .branch("my-nio-for-swift-rabbitmq")), 
+        .package(url: "https://github.com/nzosteopath/rabbitmq-nio.git", branch: "my-nio-for-swift-rabbitmq"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.5.4"),
         .package(url: "https://github.com/groue/Semaphore.git", from: "0.1.0"),
         .package(url: "https://github.com/swift-server/swift-service-lifecycle.git", exact: "2.8.0")
