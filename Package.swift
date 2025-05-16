@@ -26,7 +26,7 @@ let package = Package(
             dependencies: [
                 .product(name: "AMQPClient", package: "rabbitmq-nio"), // Name from your rabbitmq-nio fork's Package.swift
                 .product(name: "Logging", package: "swift-log"),
-				.product(name: "ServiceLifecycle", package: "swift-service-lifecycle")
+				.product(name: "ServiceLifecycle", package: "swift-service-lifecycle"),
                 //.product(name: "Lifecycle", package: "swift-service-lifecycle"),
                 .product(name: "Semaphore", package: "semaphore")
                 // Temporarily remove .product(name: "AsyncAlgorithms", package: "swift-async-algorithms") from here
