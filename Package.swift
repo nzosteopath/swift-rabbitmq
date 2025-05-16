@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -60,10 +60,10 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.1.0"),
-        .package(url: "https://github.com/funcmike/rabbitmq-nio", from: "0.1.0-beta4"),
+        .package(url: "https://github.com/funcmike/rabbitmq-nio", from: "0.5.0"),
         .package(url: "https://github.com/apple/swift-async-algorithms", from: "1.0.0"),
-        .package(url: "https://github.com/apple/swift-log", from: "1.0.0"),
-        .package(url: "https://github.com/swift-server/swift-service-lifecycle.git", from: "2.0.0"),
+        .package(url: "https://github.com/apple/swift-log", from: "1.5.4"),
+        .package(url: "https://github.com/swift-server/swift-service-lifecycle.git", from: "2.8.0"),
         .package(url: "https://github.com/groue/Semaphore.git", from: "0.1.0"),
         .package(url: "https://github.com/xtremekforever/testcontainers-swift.git", branch: "main"),
     ],
