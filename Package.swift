@@ -38,7 +38,8 @@ let package = Package(
     ],
     dependencies: [
         // These are the dependencies from the official 0.3.1 tag, plus your rabbitmq-nio fix
-        .package(url: "https://github.com/funcmike/rabbitmq-nio.git", from: "0.5.0"), // YOUR CRUCIAL FIX
+        .package(url: "https://github.com/nzosteopath/rabbitmq-nio.git", .branch("my-nio-for-swift-rabbitmq")),
+        //.package(url: "https://github.com/funcmike/rabbitmq-nio.git", from: "0.5.0"), // YOUR CRUCIAL FIX
         .package(url: "https://github.com/apple/swift-log.git", from: "1.5.4"),
         .package(url: "https://github.com/groue/Semaphore.git", from: "0.1.0"),
         .package(url: "https://github.com/swift-server/swift-service-lifecycle.git", from: "2.8.0"),
